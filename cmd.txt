@@ -1,0 +1,2 @@
+curl -d "Topic=1234&Date=12/2&Content=Hello&State=unfinshed" http://127.0.0.1:3000/lists
+DEBUG=server-side:* npm start
