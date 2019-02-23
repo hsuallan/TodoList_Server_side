@@ -3,7 +3,7 @@ module.exports = [
     Topic:'aaa',
     Date:'12/1',
     Content:'Something',
-    State:'unfinshed',
+    finish:false,
     id:'0000',
 
   },
@@ -11,7 +11,7 @@ module.exports = [
     Topic:'bbb',
     Date:'12/2',
     Content:'Something2',
-    State:'unfinshed',
+    finish:false,
     id:'0001'
   }
 ]
