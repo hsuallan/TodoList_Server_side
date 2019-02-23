@@ -2,13 +2,13 @@
 This is server-side of TodoList
 
 ## Feature
-- [x] GET /lists -> Get all Todoitem
-- [x] GET /lists/id -> Get specific content of Todoitem
-- [x] POST /lists -> Create new Todoitem
-- [x] PUT /lists/id -> Replace specific Todoitem
-- [x] PATCH /lists/id -> Update specific Todoitem  
+- [x] GET /list -> Get all Todoitem
+- [x] GET /list/id -> Get specific content of Todoitem
+- [x] POST /list -> Create new Todoitem
+- [x] PUT /list/id -> Replace specific Todoitem
+- [x] PATCH /list/id -> Update specific Todoitem  
   ->How to verify correct params?
-- [x] DELETE /lists/id -> Delete specific Todoitem
+- [x] DELETE /list/id -> Delete specific Todoitem
 - [ ] Connect with Database
 ### List 
 - Topic(have unique id)

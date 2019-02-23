@@ -7,11 +7,12 @@ router.get('/', function(req, res, next) {
   /*access DB */
   let p=[];
   data.forEach((x)=>{
-    p.push(x.Topic)
+    p.push({
+      Topic : x.Topic,
+      id : x.id
+    })
   })
-  return res.status(200).json({
-    Todoitem:p
-  })
+  return res.status(200).json(JSON.stringify(p))
 })
 /*Post /lists  req : Date,Content,Topic,State */
 router.post('/',function(req,res,next){
@@ -64,7 +65,7 @@ router.get('/:id',function(req,res,next){
       err:"no find"
     })
   }
-  return res.status(200).json(ans)
+  return res.status(200).json(JSON.stringify(ans))
 })
 /*DELETE /list/id */
 router.delete('/:id',function (req,res,next) {
